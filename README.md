@@ -1,5 +1,10 @@
 # Customer Churn Prediction - Complete ML Lifecycle
 
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![ML](https://img.shields.io/badge/ML-XGBoost-orange.svg)
+![API](https://img.shields.io/badge/API-FastAPI-009688.svg)
+
 A complete machine learning system for predicting customer churn in telecommunications, implementing all 8 phases of the ML lifecycle from problem definition through deployment and monitoring.
 
 ## Overview
@@ -155,8 +160,8 @@ docker run -p 8000:8000 churn-prediction-api
 
 ```bash
 # Clone repository
-git clone <repository-url>
-cd ML
+git clone https://github.com/reda-alilou/Customer-Churn-Prediction.git
+cd Customer-Churn-Prediction
 
 # Install dependencies
 pip install -r requirements.txt
