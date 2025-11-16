@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.Python
+env/
+venv/
+ENV/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data - exclude processed data but keep raw dataset
+data/processed/
+data/data_exploration.png
+
+# Models - exclude trained models and reports
+models/
+*.joblib
+*.pkl
+
+# Monitoring outputs
+monitoring/dashboard.json
+monitoring/drift_report_*.json
+monitoring/performance_test_*.json
+monitoring/logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Virtual environment
+venv/
+.venv/
+*.virtualenv
+
+# Logs
+*.log
+
